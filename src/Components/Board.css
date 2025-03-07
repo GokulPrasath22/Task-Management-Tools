@@ -1,0 +1,51 @@
+.board{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.kanban{
+    flex: 1;
+    display: flex;
+    gap: 10px;
+}
+.board .col{
+    flex: 1;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.board .col h1{
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px 10px;
+    font-weight: 400;
+    width: max-content;
+    background-color: #0052cc;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+}
+.addTask{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.addTask input{
+    padding: 8px;
+    border-radius: 4px;
+    margin-right: 8px;
+    font-size: 1rem;
+    border: none;
+}
+.addTask button{
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0052cc;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.addTask button:hover{
+    background-color: #014ec0;
+}
